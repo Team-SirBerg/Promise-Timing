@@ -1,5 +1,6 @@
 # Hello!
-Thanks for checking out my Repository. This is just a simple Module to measure how long a Promise takes to Resolve while getting the Results of the Promise
+Thanks for checking out my Repository. This is just a simple Module to measure how long a Promise takes to Resolve while getting the Results of the Promise.
+If you have any Problems feel free to create an Issue over on [Github](https://github.com/Team-SirBerg/Promise-Timing/issues) :D
 # Usage
 ```javascript
 const {measurePromise} = require('promise-timing')
