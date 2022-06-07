@@ -1,6 +1,6 @@
 {
   "name": "promise-timing",
-  "version": "1.0.0",
+  "version": "1.0.0.1",
   "description": "A simple Node Module to Time how long a Promise takes to execute",
   "main": "index.js",
   "directories": {
