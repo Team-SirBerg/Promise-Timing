@@ -13,6 +13,13 @@
     "promise",
     "timing"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Team-SirBerg/Promise-Timing.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "SirBerg",
   "license": "MIT"
 }
