@@ -7,7 +7,20 @@ const {measurePromise} = require('promise-timing')
 
 await measurePromise(yourPromiseBasedFunction, yourFirstArgument, yourSecondArgument, ...)
 ```
-The arguments after the function will be passed to that function
+The arguments after the promisedBasedFunction will be passed to that function
+So if you have a function that takes arguemnts like this:
+```javascript
+async function testfunction(argumentone, argumenttwo, argumentthree){
+  return new Promise((resolve, reject)=>{
+    //do heavy stuff
+    resolve(yourresult)
+  })
+}
+```
+You could still pass the parameters to the function like this:
+```javascript
+await measurePromise(testfunction, argumentone, argumenttwo, argumentthree, etc...)
+```
 
 The Output will look like this:
 ```javascript
